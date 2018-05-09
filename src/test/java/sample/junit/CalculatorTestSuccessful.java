@@ -34,7 +34,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_1() {
         System.out.println("----- START OF Verify function testSum_1 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(7, 4);
+        int result = calculator.sum(7, 0);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_1 in CalculatorTestSuccessful class -------------");
@@ -43,7 +43,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_2() {
         System.out.println("----- START OF Verify function testSum_2 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(2, 4);
+        int result = calculator.sum(2, 5);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_2 in CalculatorTestSuccessful class -------------");
