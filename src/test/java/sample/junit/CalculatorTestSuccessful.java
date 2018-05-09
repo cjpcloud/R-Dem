@@ -118,7 +118,7 @@ public class CalculatorTestSuccessful {
     public void testEqual() {
         boolean result = calculator.equalIntegers(20, 20);
 
-        Assert.assertFalse(result);
+        Assert.assertTrue(result);
     }
 
     @Test
