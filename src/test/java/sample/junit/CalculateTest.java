@@ -33,7 +33,7 @@ public class CalculateTest {
 
     @Test
     public void testSum_One() {
-        int testSum = 7;
+        int testSum = 11;
         System.out.println("----- START OF Verify function testSum -------------");
         int sum = calculator.sum(2, 9);
         System.out.println("@Test sum(): " + sum + " = " + testSum);
@@ -43,7 +43,7 @@ public class CalculateTest {
 
     @Test
     public void testSum_second() {
-        int subResult = 10;
+        int subResult = 7;
         System.out.println("----- START OF Verify function testSum -------------");
         int sum = calculator.sum(2, 5);
         System.out.println("@Test sum(): " + sum + " = " + subResult);
@@ -52,3 +52,4 @@ public class CalculateTest {
     }
 
 }
+.,
