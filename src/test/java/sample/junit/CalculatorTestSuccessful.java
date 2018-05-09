@@ -52,7 +52,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_3() {
         System.out.println("----- START OF Verify function testSum_3 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(9, 4);
+        int result = calculator.sum(3, 4);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_3 in CalculatorTestSuccessful class -------------");
@@ -61,7 +61,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_4() {
         System.out.println("----- START OF Verify function testSum_4 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(0, 4);
+        int result = calculator.sum(3, 4);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_4 in CalculatorTestSuccessful class -------------");
@@ -70,7 +70,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_5() {
         System.out.println("----- START OF Verify function testSum_5 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(2, 4);
+        int result = calculator.sum(3, 4);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_5 in CalculatorTestSuccessful class -------------");
@@ -79,7 +79,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_6() {
         System.out.println("----- START OF Verify function testSum_6 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(9, 4);
+        int result = calculator.sum(3, 4);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_6 in CalculatorTestSuccessful class -------------");
@@ -88,7 +88,7 @@ public class CalculatorTestSuccessful {
     @Test
     public void testSum_7() {
         System.out.println("----- START OF Verify function testSum_7 in CalculatorTestSuccessful class -------------");
-        int result = calculator.sum(0, 4);
+        int result = calculator.sum(3, 4);
 
         Assert.assertEquals(7, result);
         System.out.println("----- END OF Verify function testSum_7 in CalculatorTestSuccessful class -------------");
@@ -123,7 +123,7 @@ public class CalculatorTestSuccessful {
 
     @Test
     public void testSubstraction() {
-        int result = 10 - 3;
+        int result = 10 - 1;
 
         Assert.assertTrue(result == 9);
     }
