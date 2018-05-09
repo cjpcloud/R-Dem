@@ -123,7 +123,7 @@ public class CalculatorTestSuccessful {
 
     @Test
     public void testSubstraction() {
-        int result = 10 - 1;
+        int result = 10 - 8;
 
         Assert.assertTrue(result == 9);
     }
